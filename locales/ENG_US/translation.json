@@ -1,0 +1,67 @@
+{
+  "naxCloud": "naxCloud",
+  "About naxCloud": "About naxCloud",
+  "Language": "Language",
+  "ENG_US": "English",
+  "ZH_CN": "中文",
+  "2021 naxCloud": "2021 naxCloud",
+  "Simple·Fast·Useful": "Simple·Fast·Useful",
+
+  "New version!": "New version!",
+  "Upgrade to the latest version to apply the latest security updates and new features": "Upgrade to the latest version to apply the latest security updates and new features.",
+  "Upgrade now": "Upgrade now",
+  "Quit": "Quit",
+
+  "Checking for updates": "Checking for updates...",
+  "Downloading": "Downloading...",
+
+  "Error 1004": "Error 1004",
+  "Oops!": "Oops!",
+  "No active subscription was found! You need to renew or buy our service": "No active subscription was found! You need to renew or buy our service.",
+  "Contact Customer Service": "Contact Customer Service.",
+  "Check now!": "Check now!",
+
+  "Error 1005": "Error 1005",
+  "Unable to connect!": "Unable to connect!",
+  "You must be connected to the Internet to use the software If you cant solve the issue by yourself, please contact our online customer service": "You must be connected to the Internet to use the software. If you can't solve the issue by yourself, please contact our online customer service.",
+  "Try again": "Try again",
+
+  "Email": "Email",
+  "Password": "Password",
+  "Please input your Email!": "Please input your Email!",
+  "Please input your Password!": "Please input your Password!",
+  "Remember me": "Remember me",
+  "Forgot the password?": "Forgot the password?",
+  "Log in": "Log in",
+  "No account?": "No account?",
+  "Register!": "Register!",
+  "Login failed": "Login failed",
+
+  "Start": "Start",
+  "Left": "Left",
+  "left": "left",
+  "Days": "Days",
+  "Hours": "Hours",
+  "Days left": "Days left",
+  "Out of traffic": "Out of traffic",
+  "Click to get traffic": "Click to get traffic",
+  "Connecting...": "Connecting...",
+  "You are safe!": "You are safe!",
+  "Turn off": "Turn off",
+  "Error 1008": "Error 1008",
+
+  "Access point selection": "Access point selection",
+  "Please select filter tags": "Please select filter tags",
+  "Refresh": "Refresh",
+
+  "Notification": "Notification",
+  "News": "News",
+  "Latest News": "Latest News",
+  "Check more": "Check more",
+  "Setting": "Setting",
+
+  "Released": "Released",
+  "Changelog": "Changelog",
+  "New Version!": "New Version!",
+  "naxCloud data relay": "naxCloud data relay"
+}

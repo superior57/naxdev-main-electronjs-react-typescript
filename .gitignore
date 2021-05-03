@@ -1,0 +1,8 @@
+node_modules
+dist
+out/
+release/
+.DS_Store
+src/.DS_Store
+report.*
+.idea

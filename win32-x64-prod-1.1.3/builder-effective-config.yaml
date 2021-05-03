@@ -1,0 +1,42 @@
+directories:
+  output: dist
+  buildResources: build
+productName: naxCloud
+asar: false
+appId: org.erb.NaxCloud
+files:
+  - filter:
+      - dist/
+      - '!**/node_modules/*'
+      - '!node_modules'
+      - '!**/mac/*'
+      - '!**/win-unpacked/*'
+extraResources:
+  - filter:
+      - locales
+publish:
+  - provider: generic
+    url: https://api.naxdev.ga/uploads/versions
+    channel: latest
+    useMultipleRangeRequest: false
+    useAppSupportCache: false
+mac:
+  target:
+    - zip
+    - dmg
+  type: distribution
+  hardenedRuntime: true
+  gatekeeperAssess: false
+win:
+  target: NSIS
+  asar: false
+nsis:
+  oneClick: false
+  perMachine: true
+  deleteAppDataOnUninstall: true
+  warningsAsErrors: false
+linux:
+  target:
+    - AppImage
+  category: Development
+electronVersion: 11.4.4

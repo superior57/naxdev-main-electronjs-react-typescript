@@ -1,0 +1,42 @@
+.navigationHeader {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 12px;
+
+  &__back {
+    position: absolute;
+    left: 2px;
+    top: -2px;
+    font-size: 20px !important;
+    color: #fff;
+    -webkit-app-region: no-drag;
+  }
+
+  &__title {
+    max-width: 80%;
+    font-size: 14px;
+    line-height: 1.33;
+    color: #fff;
+  }
+}
+
+.publicHeader,
+.privateHeader,
+.navigationHeader {
+  position: relative;
+
+  &__btns {
+    -webkit-app-region: no-drag;
+  }
+
+  &__btn {
+    cursor: pointer;
+  }
+
+  &__btn:hover {
+    filter: brightness(1.2);
+  }
+}

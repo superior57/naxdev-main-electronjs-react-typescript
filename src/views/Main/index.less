@@ -1,0 +1,89 @@
+.main {
+  &.blur {
+    filter: blur(3px);
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 2.5;
+  }
+
+  &__days {
+    font-size: 16px;
+    line-height: 1.38;
+    margin-right: 4px;
+  }
+
+  &__title,
+  &__days {
+    color: #fff;
+  }
+
+  &__days-renew-light {
+    color: #66EDFF;
+  }
+
+  &__days-renew-heavy {
+    color: #FAAD14;
+  }
+
+  &__divider {
+    width: 100%;
+    border-bottom: 1px dotted #8E8E8E;
+  }
+
+  &__engine {
+    margin-top: 60px;
+  }
+
+  &__access {
+    margin: 60px auto;
+    width: 80%;
+  }
+
+  &__notification {
+    position: relative;
+    cursor: pointer;
+  }
+
+  &__icons {
+    display: flex;
+  }
+
+  &__icon {
+    z-index: 1;
+    font-size: 18px !important;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  &__icon:hover {
+    filter: brightness(1.2);
+  }
+
+  &__dot {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #66EDFF;
+    z-index: 2;
+  }
+}
+
+.ant-drawer-header {
+  border-bottom: none !important;
+  background: rgba(0, 0, 0, 0.5) !important;
+  padding: 11px 32px !important;
+}
+
+.ant-drawer-body {
+  padding: 0;
+}
+
+.ant-drawer-content {
+  background: rgba(0, 0, 0, 0.5) !important;
+}

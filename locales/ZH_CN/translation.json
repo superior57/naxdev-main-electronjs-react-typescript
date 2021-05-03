@@ -1,0 +1,67 @@
+{
+  "naxCloud": "naxCloud",
+  "About naxCloud": "关于纳克斯云",
+  "Language": "语言",
+  "ENG_US": "English",
+  "ZH_CN": "中文",
+  "2021 naxCloud": "2021 纳克斯云计算",
+  "Simple·Fast·Useful": "简单 · 快速 · 实用",
+
+  "New version!": "检测到新版本!",
+  "Upgrade to the latest version to apply the latest security updates and new features": "升级到最新版本以应用最新的安全更新和软件特性。",
+  "Upgrade now": "升级",
+  "Quit": "退出软件",
+
+  "Checking for updates": "正在检查更新...",
+  "Downloading": "下载中...",
+
+  "Error 1004": "错误 1004",
+  "Oops!": "Oops!",
+  "No active subscription was found! You need to renew or buy our service": "你的账户中没有有效产品订阅，请购买或者续费你的产品！",
+  "Contact Customer Service": "联系在线客服",
+  "Check now!": "解决问题",
+
+  "Error 1005": "错误 1005",
+  "Unable to connect!": "无法建立连接",
+  "You must be connected to the Internet to use the software If you cant solve the issue by yourself, please contact our online customer service": "要使用软件，你必须连接到Internet， 如果你无法自行解决这个问题,请联系我们的在线客服。",
+  "Try again": "重试",
+
+  "Email": "输入会员邮箱",
+  "Password": "输入密码",
+  "Please input your Email!": "请输入您的会员邮箱！",
+  "Please input your Password!": "您必须输入您的密码！",
+  "Remember me": "记住我",
+  "Forgot the password?": "忘记密码?",
+  "Log in": "登录",
+  "No account?": "没有账户?",
+  "Register!": "注册一个！",
+  "Login failed": "登陆失败",
+
+  "Start": "开始",
+  "Left": "剩余",
+  "left": "剩余",
+  "Days": "天",
+  "Hours": "小时",
+  "Days left": "天数剩余",
+  "Out of traffic": "超出流量",
+  "Click to get traffic": "点击获取流量",
+  "Connecting...": "连接中...",
+  "You are safe!": "受到保护中！",
+  "Turn off": "关闭",
+  "Error 1008": "错误 1008",
+
+  "Access point selection": "接入点选择",
+  "Please select filter tags": "请选择过滤标签",
+  "Refresh": "刷新",
+
+  "Notification": "通知",
+  "News": "新闻",
+  "Latest News": "最新新闻",
+  "Check more": "查看更多",
+  "Setting": "设置",
+
+  "Released": "已发布",
+  "Changelog": "更新日志",
+  "New Version!": "新版本",
+  "naxCloud data relay": "纳克斯云 数据驿站"
+}

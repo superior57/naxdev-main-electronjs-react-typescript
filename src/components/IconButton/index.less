@@ -1,0 +1,46 @@
+.iconButton {
+  width: 82px;
+  padding: 3px 10px;
+  background-color: #323232;;
+  color: #fff;
+  border-radius: 2px;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+
+  &__disabled {
+    cursor: not-allowed;
+  }
+  
+  &:hover {
+    filter: brightness(1.2);
+  }
+
+  &:focus {
+    background-color: #323232;;
+  }
+
+  &__title {
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 8px;
+  }
+
+  &__icon {
+    display: inline-block;
+  }
+
+  &__loading {
+    animation: rot 1s linear infinite;
+  }
+
+  @keyframes rot {
+    0% {
+      transform: rotate(0deg)
+    }
+
+    100% {
+      transform: rotate(360deg)
+    }
+  }
+}

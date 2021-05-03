@@ -1,0 +1,313 @@
+//** GLOBAL IMPORTS **//
+@import './assets/fonts/font.less';
+@import './assets//fonts/sc-font.less';
+@import '~antd/dist/antd.less';
+@import '~antd/dist/antd.dark.less';
+@import '~antd/dist/antd.compact.less';
+
+//** GLOBAL VARIABLES **//
+@background-gradient: linear-gradient(135deg, #2c2c2c 0%, #000000 100%);
+@page-margins: 0px 0.8rem;
+@content-height: 83vh;
+@size-xl: 3rem;
+@size-lg: 2rem;
+@size-md: 1rem;
+@size-sm: 0.5rem;
+@size-xs: 0.25rem;
+@color-green: #036D18;
+@color-grey: #323232;
+@header-color-grey: #575757;
+@header-color-red: #FF4848;
+@font-size-xl: 16px;
+
+
+//** GLOBAL STYLES **//
+
+//** PAGE LAYOUT **//
+body {
+  background-image: @background-gradient;
+  user-select: none; 
+}
+
+#root {
+  margin: @page-margins;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 100%;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #565656;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #8c8c8c;
+}
+
+.page {
+  height: 100vh;
+  overflow: hidden;
+  padding: 12px 0;
+}
+
+.ant-layout-content {
+  height: @content-height;
+}
+
+.full-height {
+  height: 100%;
+}
+
+//** ANT ICON **//
+.anticon {
+  font-size: @font-size-lg;
+  padding-top: 0.2rem;
+}
+
+//** TEXT ALIGNMENT FOR COLUMNS **//
+.col-text-center {
+  text-align: center;
+}
+
+.col-text-right {
+  text-align: right;
+}
+
+.col-text-left {
+  text-align: left;
+}
+
+//** TEXT DECORATION **//
+.underline>span {
+  text-decoration: underline !important;
+}
+
+//** CONTENT ALIGNMENT **//
+.float-right {
+  float: right;
+}
+
+//** DIFFERENT PADDINGS FOR PAGE LAYOUT **//
+.p-l {
+  padding: @size-lg;
+}
+
+.p-m {
+  padding: @size-md;
+}
+
+.pt-s {
+  padding-top: @size-sm;
+}
+
+.plr-s {
+  padding-left: @size-sm;
+  padding-right: @size-sm;
+}
+
+.plr-m {
+  padding-left: @size-md;
+  padding-right: @size-md;
+}
+
+.plr-l {
+  padding-left: @size-lg;
+  padding-right: @size-lg;
+}
+
+.pm-pl {
+  padding: @size-md @size-lg;
+}
+
+//** DIFFERENT MARGINS FOR PAGE LAYOUT **//
+.mt-xl {
+  margin-top: @size-xl;
+}
+
+.mt-l {
+  margin-top: @size-lg;
+}
+
+.mt-m {
+  margin-top: @size-md;
+}
+
+.mt-s {
+  margin-top: @size-sm;
+}
+
+.mt-xs {
+  margin-top: @size-xs;
+}
+
+//** Font Size **//
+.font-size-l {
+  font-size: @font-size-lg;
+}
+
+.font-size-xl {
+  font-size: @font-size-xl;
+}
+
+//** BUTTON STYLES **//
+.ant-btn-lg {
+  width: 10rem;
+  background-color: @color-grey !important;
+  line-height: @btn-height-lg !important;
+  border: none;
+}
+
+.ant-input-search-button {
+  background-color: @color-grey !important;
+}
+
+.ant-btn-lg:hover,
+.ant-input-search-button:hover {
+  filter: brightness(1.2);
+  border: none;
+  color: @text-color !important;
+}
+
+.ant-btn-lg:focus,
+.ant-input-search-button:focus {
+  filter: brightness(1.1) !important;
+  border: none;
+  color: @text-color  !important;
+}
+
+.btn-green {
+  background-color: @color-green !important;
+}
+
+.btn-green:hover {
+  filter: brightness(1.2) !important;
+}
+
+.btn-green:focus {
+  filter: brightness(1.1) !important;
+  border: none;
+  color: @text-color !important;
+}
+
+.ant-btn-link {
+  color: @white  !important;
+  padding: 0rem !important;
+  margin: 0rem !important;
+}
+
+.ant-btn-link:hover {
+  color: darken(@white, 10%) !important;
+}
+
+.ant-btn-link:focus {
+  color: darken(@white, 20%) !important;
+}
+
+
+//** HEADER BUTTONS **//
+.header-btn-secondary {
+  background-color: @header-color-grey !important;
+  color: @white;
+}
+
+.header-btn-secondary:hover {
+  filter: brightness(1.2) !important;
+  color: @white;
+}
+
+.header-btn-secondary:focus {
+  background-color: @header-color-grey;
+  color: @white;
+}
+
+.header-btn-red {
+  background-color: @header-color-red !important;
+  color: @white;
+}
+
+.header-btn-red:hover {
+  filter: brightness(1.2) !important;
+  color: @white;
+}
+
+.header-btn-red:focus {
+  background-color: @header-color-red;
+  color: @white;
+}
+
+//** INPUT STYLES **//
+.ant-input,
+.ant-select {
+  background: #292929;
+  border-radius: 0.25rem;
+  border: 0.0625rem solid #292929;
+}
+
+.ant-input:hover,
+.ant-select:hover {
+  background: #323232;
+  border: 0.0625rem solid #000;
+}
+
+.ant-input:focus,
+.ant-select:focus {
+  color: @white;
+  background: #181818;
+  border-radius: 0.25rem;
+  border: 1px solid #292929 !important;
+  box-shadow: none;
+}
+
+.ant-select {
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+.ant-select-selector {
+  border: none !important;
+}
+
+.ant-select-focused .ant-select-selector,
+.ant-select-selector:focus,
+.ant-select-selector:active {
+  box-shadow: none !important;
+}
+
+.ant-input-search .ant-input:hover,
+.ant-input-search .ant-input:focus,
+.ant-input-search .ant-input:active {
+  border: 1px solid #292929 !important;
+}
+
+.ant-select-item-option-selected {
+  background-color: #323232 !important;
+}
+
+.ant-input-group-addon {
+  background-color: @header-color-grey;
+}
+
+.ant-drag-handle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 35px;
+  -webkit-app-region: drag;
+}
+
+.ant-form-item-explain {
+  position: absolute;
+  bottom: -20px;
+}
+
+.ant-form-item-with-help {
+  margin-bottom: 16px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

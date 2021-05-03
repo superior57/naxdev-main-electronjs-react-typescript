@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="9px" viewBox="0 0 25 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>151</title>
+    <defs>
+        <ellipse id="path-1" cx="12.5" cy="4.5" rx="12.5" ry="4.5"></ellipse>
+    </defs>
+    <g id="2021/1/11" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03.login" transform="translate(-286.000000, -239.000000)">
+            <g id="151" transform="translate(286.000000, 239.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="s_icon_5" fill="#111111" xlink:href="#path-1"></use>
+                <g id="hiden" mask="url(#mask-2)" fill="#D8D8D8">
+                    <g transform="translate(3.000000, 2.000000)" id="s_icon_4">
+                        <path d="M9,0 C12.8659932,-7.10171439e-16 16,3.13400675 16,7 L16,14 L16,14 L2,14 L2,7 C2,3.13400675 5.13400675,7.10171439e-16 9,0 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Connected_31</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00FF36" offset="0%"></stop>
+            <stop stop-color="#656565" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="2021/1/11" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="button-logic" transform="translate(-689.000000, -173.000000)" fill-rule="nonzero">
+            <g id="Connected_31" transform="translate(689.000000, 173.000000)">
+                <rect id="矩形" fill="url(#linearGradient-1)" opacity="0" x="0" y="0" width="58" height="58"></rect>
+                <path d="M52.4488681,12.546206 C51.7131133,11.8179313 50.520256,11.8179313 49.7854231,12.546206 L20.5343733,41.4990157 L7.21530434,28.3152998 C6.47949193,27.5879377 5.2876141,27.5879377 4.5518593,28.3152998 C3.8160469,29.0436315 3.8160469,30.2243615 4.5518593,30.9517236 L19.2017865,45.4544784 C19.9375413,46.1818405 21.1303986,46.1818405 21.8661534,45.4544784 L52.4489258,15.1826298 C53.183701,14.4542981 53.183701,13.2744806 52.4488681,12.546206" id="路径" fill="#00FF36"></path>
+            </g>
+        </g>
+    </g>
+</svg>
